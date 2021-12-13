@@ -20,7 +20,7 @@ import com.aerospike.client.policy.WritePolicy;
 
 public class TestAerospikeCdts {
 
-	private final String HOST = "172.28.128.4";
+	private final String HOST = "127.0.0.1";
 	private AerospikeClient client;
 
 	@Before

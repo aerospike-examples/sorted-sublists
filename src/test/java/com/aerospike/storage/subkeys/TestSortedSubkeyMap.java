@@ -23,7 +23,7 @@ public class TestSortedSubkeyMap {
 
 	private SortedSubkeyMap<String> stringMap;
 	private SortedSubkeyMap<Long> longMap;
-	private final String HOST = "172.28.128.4";
+	private final String HOST = "127.0.0.1";
 	private AerospikeClient client;
 	
 	@Before
